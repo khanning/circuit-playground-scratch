@@ -255,7 +255,7 @@
       console.log("Device connected");
       setTimeout(function() {
         poller = setInterval(function() {
-          d.read(processInput, 10);
+          device.read(processInput, 10);
         }, 20);
       }, 1000);
     });
